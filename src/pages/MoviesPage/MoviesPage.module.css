@@ -1,0 +1,52 @@
+.moviesPage {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.searchForm {
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 8px;
+  font-size: 1rem;
+  width: 70%;
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  font-size: 1rem;
+}
+
+.loading,
+.error {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.error {
+  color: red;
+}
+
+.movieList {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.movieItem {
+  margin-bottom: 8px;
+}
+
+.movieTitle {
+  font-size: 1rem;
+}
+
+.noResults {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  font-weight: 500;
+}
